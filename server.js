@@ -5,7 +5,7 @@ var mongo = require('mongodb');
 var bodyParser = require('body-parser');
 var dns = require('dns');
 var mongoose = require('mongoose');
-mongoose.connect("mongodb://ambujraj:QwertyAmbuj143$@ds011281.mlab.com:11281/urlshortner", {useNewUrlEncoded: true});
+
 var cors = require('cors');
 
 var app = express();
